@@ -1,0 +1,38 @@
+body {
+    background-image: url('photo1.jpg');
+    background-size: cover;
+    font-family: Arial, sans-serif; /* Example font family */
+    color: #010103d2; /* Example text color */
+    padding: 20px; /* Example padding */
+}
+
+h1 {
+    text-align: center; /* Center the heading */
+    text-transform: uppercase; /* Convert text to uppercase */
+    color: #18181a; /* Example heading color */
+}
+
+form {
+    background-color: rgba(255, 255, 255, 0.7); /* Example background color with transparency */
+    padding: 20px; /* Example padding */
+    border-radius: 10px; /* Example border radius */
+}
+
+label {
+    font-weight: bold; /* Example bold font weight */
+}
+
+input[type="text"] {
+    width: 100%; /* Example full width input */
+    padding: 10px; /* Example padding */
+    margin-bottom: 10px; /* Example margin */
+}
+
+input[type="submit"] {
+    width: 100%; /* Example full width submit button */
+    padding: 10px; /* Example padding */
+    background-color: #007bff; /* Example background color */
+    color: #fff; /* Example text color */
+    border: none; /* Remove border */
+    cursor: pointer; /* Add pointer cursor on hover */
+}

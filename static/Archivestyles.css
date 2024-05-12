@@ -1,0 +1,22 @@
+body {
+    background-image: url('photo1.jpg');
+    background-size: cover;
+    background-color: #f9f9f9;
+
+}
+h1 {
+    text-align: center; /* Center the heading */
+    text-transform: uppercase; /* Convert text to uppercase */
+    color: #18181a; /* Example heading color */
+}
+div {
+
+    font-family: Arial, sans-serif; /* Example font family */
+    color: #0e0a0a; /* Example text color */
+    padding: 5px; /* Example padding */
+    border: 1px solid #f9f9f9;
+    background-color: #ffffff7e;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+

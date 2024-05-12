@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Արխիվ</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='Archivestyles.css') }}">
+</head>
+<body>
+    <h1>Արխիվ</h1>
+    <div id="archiveContent">
+        <!-- Content fetched from base.txt will be displayed here -->
+    </div>
+
+    <script>
+        // Fetch content from base.txt when the page loads
+        window.addEventListener('DOMContentLoaded', () => {
+            fetch('/static/base.txt')
+                .then(response => response.text())
+                .then(data => {
+                    document.getElementById('archiveContent').innerText = data;
+                })
+                .catch(error => console.error('Error fetching base.txt:', error));
+        });
+    </script>
+</body>
+</html>

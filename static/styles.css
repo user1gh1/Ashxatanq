@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Align items at the top */
+    min-height: 100vh; /* Ensure the body covers the entire viewport */
+    margin: 0;
+    padding: 5px; /* Add some padding for spacing */
+    box-sizing: border-box; /* Ensure padding doesn't affect overall width */
+    background-color: #f7f7f7; /* Optional: Add a background color */
+    background-image: url('/static/photo1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: Arial, sans-serif; 
+    height: 100vh; 
+    overflow: hidden;
+    text-decoration: none;
+}
+
+.container {
+    max-width: 600px; /* Limit the width of content */
+}
+
+button {
+    display: block;
+    margin-bottom: 10px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #ffffffe5;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    text-decoration: none;
+}
+
+button:hover {
+    background-color: #7e7f81;
+}
