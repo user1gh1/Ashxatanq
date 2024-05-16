@@ -4,16 +4,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Search Results</title>
+    <title>Որոնման արդյունքները</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='styles.css') }}">
+
 </head>
 
 <body>
-    <h1>Search Results</h1>
+    <h1>Որոնման արդյունքները</h1>
     <ul>
         {% for result in results %}
         <li>{{ result }}</li>
         {% endfor %}
     </ul>
 </body>
+<footer>
+    <a href="/"><button>Գլխավոր էջ</button></a>
+</footer>
 
 </html>

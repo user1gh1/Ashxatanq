@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="hy">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Answer Form</title>
     <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='Answerstyles.css') }}">
 </head>
+
 <body>
     <h1>ՀԱՐՑԱԹԵՐԹԻԿ</h1>
     <form method="post">
@@ -23,7 +25,7 @@
         <input type="text" id="curriculum" name="curriculum"><br><br>
         <label for="manuals">Դասագրքեր,մենագրություններ, ուսումնական ձեռնարկներ</label><br>
         <input type="text" id="manuals" name="manuals"><br><br>
-        
+
 
         <label for="question1">Գիտական աստիճանի առկայությունը:</label><br>
         <input type="radio" id="q1_option1" name="question_1" value="option1">
@@ -43,7 +45,8 @@
         <label for="q2_option3">գիտական աշխատանքներ վերջին 3 տարում առկա չեն</label><br>
         <br>
 
-        <label for="question3">Վերջին 3 տարիներին գիտական միջոցառումներին(գիտաժողովներ, գիտական սեմինարներ, քննարկումներ)
+        <label for="question3">Վերջին 3 տարիներին գիտական միջոցառումներին(գիտաժողովներ, գիտական սեմինարներ,
+            քննարկումներ)
             մասնակցությունը:</label><br>
         <input type="radio" id="q3_option1" name="question_3" value="option1">
         <label for="q3_option1">3-ից ավել մասնակցություն</label><br>
@@ -61,7 +64,7 @@
         <input type="radio" id="q4_option3" name="question_4" value="option3">
         <label for="q4_option3">մասնակցություն առկա չէ</label><br>
         <br>
-        
+
         <label for="question5">Վերջին 3 տարիներին հետազոտական կամ դրամաշնորհային ծրագրերին մասնակցությունը:</label><br>
         <input type="radio" id="q5_option1" name="question_5" value="option1">
         <label for="q5_option1">3-ից ավել մասնակցություն</label><br>
@@ -91,6 +94,10 @@
 
         <input type="submit" value="Հաստատել">
     </form>
-    
+
 </body>
+<footer>
+    <a href="/"><button>գլխավոր էջ</button></a>
+</footer>
+
 </html>

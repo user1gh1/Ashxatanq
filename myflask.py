@@ -53,7 +53,7 @@ def answer():
             f'Curriculum: {curriculum}, '
             f'Manuals: {manuals}, '
             f'Points: {mypoints}\n')
-        return "Շնորհակալություն հարցմանը մասնակցելու համար!"
+        return "Շնորհակալություն հարցմանը մասնակցելու համար!<br><br><br><a href='/'>Գլխավոր էջ</a>"
     return render_template('answer_form.html')
 
 @app.route('/search', methods=['GET', 'POST'])
