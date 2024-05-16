@@ -2,3 +2,4 @@ fullname: Artavazd Kocharyan Ashoti, Dateofbirth: 06.08.1974, Education: Դոց�
 fullname: Armen Sargsyan Vazgeni, Dateofbirth: 14.09.1984, Education: Դոկտոր Պրոֆֆեսոր, Workinghours: 108, Subjectfullname: Կիրառական Մաթեմատիկա, Curriculum: Առկա, Manuals: Մաթեմատիկական ֆիզիկայի հավասարումներ, Points: 14
 fullname: Artur Poghosyan Grigori, Dateofbirth: 24.12.1969, Education: Դոկտոր Պրոֆֆեսոր, Workinghours: 87, Subjectfullname: Կիրառական Մաթեմատիկա, Curriculum: Առկա, Manuals: Մաթեմատիկական ֆիզիկայի հավասարումներ, Points: 4
 fullname: Arman Kirakosyan Vardani, Dateofbirth: 30.01.1970, Education: Դոկտոր Պրոֆֆեսոր, Workinghours: 87, Subjectfullname: Կիրառական Մաթեմատիկա, Curriculum: Առկա, Manuals: Մաթեմատիկական ֆիզիկայի հավասարումներ, Points: 8
+

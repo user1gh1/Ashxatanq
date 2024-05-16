@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-from flask import Flask, render_template, request
+from flask import Flask, render_template, request, redirect
 
 app = Flask(__name__, static_url_path='/static')
 @app.route('/')
@@ -53,7 +53,9 @@ def answer():
             f'Curriculum: {curriculum}, '
             f'Manuals: {manuals}, '
             f'Points: {mypoints}\n')
-        return "Շնորհակալություն հարցմանը մասնակցելու համար!<br><br><br><a href='/'>Գլխավոր էջ</a>"
+        return "<div style='text-align: center; margin-top: 50px;'><p>Շնորհակալություն հարցմնը մասնակցելու համար!</p><br><br><br><a href='/' style='text-decoration: none; color: blue;'>Գլխավոր էջ</a></div>"
+        #return redirect('/archive')        
+        #return "Շնորհակալություն հարցմանը մասնակցելու համար!<br><br><br><a href='/'>Գլխավոր էջ</a>"
     return render_template('answer_form.html')
 
 @app.route('/search', methods=['GET', 'POST'])
