@@ -56,7 +56,19 @@ def answer():
         return "Շնորհակալություն հարցմանը մասնակցելու համար!"
     return render_template('answer_form.html')
 
+@app.route('/search', methods=['GET', 'POST'])
+def search():
+    if request.method == 'POST':
+        search_query = request.form['search_query']
+        results = []
 
+        with open('static/base.txt', 'r', encoding='utf-8') as file:
+            for line in file:
+                if search_query in line:
+                    results.append(line)
+
+        return render_template('search_results.html', results=results)
+    return render_template('search_form.html')
 
 if __name__ == '__main__':
     app.run(debug=True)
