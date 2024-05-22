@@ -1,40 +1,76 @@
+/* styles.css */
+
 body {
-    display: flex;
-    justify-content: center;
-    align-items: flex-start; /* Align items at the top */
-    min-height: 100vh; /* Ensure the body covers the entire viewport */
-    margin: 0;
-    padding: 5px; /* Add some padding for spacing */
-    box-sizing: border-box; /* Ensure padding doesn't affect overall width */
-    background-color: #f7f7f7; /* Optional: Add a background color */
+    font-family: Arial, sans-serif;
     background-image: url('/static/photo1.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    font-family: Arial, sans-serif; 
-    height: 100vh; 
-    overflow: hidden;
-    text-decoration: none;
+    background-color: #f0f0f0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
 .container {
-    max-width: 600px; /* Limit the width of content */
+    text-align: center;
 }
 
-button {
-    display: block;
-    margin-bottom: 10px;
-    padding: 10px 20px;
-    font-size: 1rem;
-    background-color: #ffffffe5;
-    color: rgb(0, 0, 0);
-    border: none;
-    border-radius: 5px;
+.search-header {
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: #0e0e18d3;
+}
+
+.search-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.search-input {
+    padding: 15px;
+    font-size: 24px;
+    border: 1px solid #ccc;
+    border-radius: 25px 0 0 25px;
+    outline: none;
+    width: 500px;
+}
+
+.search-button {
+    padding: 15px 30px;
+    font-size: 24px;
+    border: 1px solid #ccc;
+    border-left: none;
+    border-radius: 0 25px 25px 0;
+    background-color: #0e0e18d3;
+    color: white;
     cursor: pointer;
-    transition: background-color 0.3s;
-    text-decoration: none;
+    outline: none;
 }
 
-button:hover {
-    background-color: #7e7f81;
+.search-button:hover {
+    background-color: #0056b3;
+}
+
+.buttons {
+    margin-top: 20px;
+}
+
+.buttons a button {
+    padding: 15px 30px;
+    font-size: 24px;
+    margin: 10px;
+    border: none;
+    border-radius: 25px;
+    background-color: #0e0e18d3;
+    color: white;
+    cursor: pointer;
+}
+
+.buttons a button:hover {
+    background-color: #0056b3;
 }
